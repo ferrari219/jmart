@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@emotion/react';
 import GlobalStyle from 'styles/GlobalStyle';
+import theme from 'styles/theme';
 
 export const decorators = [
   (Story) => (

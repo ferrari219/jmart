@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Button from 'components/01_Atoms/Button';
 import Input from 'components/01_Atoms/Input';
 import Titles from 'components/99_Etc/Titles';
+import PropTypes from 'prop-types';
 
 const Home = () => {
 	return (
@@ -17,6 +18,8 @@ const Home = () => {
 		</>
 	);
 };
+
+Home.propTypes = {};
 
 const mapStateToProps = (state, ownProps) => {
 	console.log(state);
